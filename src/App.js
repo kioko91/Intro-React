@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './Homepage';
+import {Contact,Telephone,Email} from './ContactUs';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1>Calvin is learning React</h1>
+
+      <Homepage/>
+      <Contact/>
+      <Telephone/>
+      <Email/>
     </div>
   );
 }
